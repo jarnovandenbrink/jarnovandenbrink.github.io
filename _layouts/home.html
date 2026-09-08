@@ -1,0 +1,28 @@
+---
+layout: default
+---
+<main class="home">
+
+  <section class="hero">
+    <div class="hero-dots" aria-hidden="true"></div>
+    <h1>{{ site.title }}<span class="red">.</span></h1>
+    <p>{{ site.tagline }}</p>
+  </section>
+
+  <section class="posts">
+    <div class="posts-head">
+      <h2>Posts</h2>
+      <span>{{ site.posts | size }} posts</span>
+    </div>
+
+    <div class="posts-list">
+      {% for post in site.posts %}
+      <a class="post-row" href="{{ post.url | relative_url }}">
+        <span class="post-date">{{ post.date | date: '%Y-%m-%d' }}</span>
+        <span class="post-title">{{ post.title }}</span>
+      </a>
+      {% endfor %}
+    </div>
+  </section>
+
+</main>

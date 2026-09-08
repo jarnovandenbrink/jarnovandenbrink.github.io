@@ -1,7 +1,8 @@
 ---
-# the default layout is 'page'
-icon: fas fa-info-circle
-order: 4
+layout: page
+title: About
+permalink: /about/
+social: true
 ---
 My name is Jarno, and I am a highly motivated individual with a positive and hardworking mindset. I am passionate about understanding how computers and networks function and finding creative ways to exploit their misconfigurations to enhance security. Over the past four years, I have been actively working in the information security field, gaining experience in offensive security and network security assessments.
 

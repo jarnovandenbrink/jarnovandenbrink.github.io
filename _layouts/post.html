@@ -1,0 +1,23 @@
+---
+layout: default
+---
+<main class="post-main">
+  <article class="post">
+
+    <div class="post-meta">
+      <span>{{ page.date | date: '%Y-%m-%d' }}</span>
+      {% assign words = page.content | strip_html | number_of_words %}
+      <span>{{ words | divided_by: 200 | at_least: 1 }} min</span>
+      {% if page.categories and page.categories.size > 0 %}
+      <span class="post-tag">{{ page.categories | first }}</span>
+      {% endif %}
+    </div>
+
+    <h1>{{ page.title }}<span class="red">.</span></h1>
+
+    <div class="post-content">
+      {{ content }}
+    </div>
+
+  </article>
+</main>
