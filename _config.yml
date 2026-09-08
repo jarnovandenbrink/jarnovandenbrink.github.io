@@ -12,8 +12,9 @@ tagline: >- # shown on the home page hero
   Security researcher and red team operator working on Windows internals, exploitation
   and malware development. Using the Windows API for things it was not built for.
 
-description: >- # used by seo meta and the atom feed
-  Red Teaming, Malware Development, and CTFs.
+description: >- # used by seo meta, link previews and the atom feed
+  Security researcher and red teamer, blog on Windows internals,
+  exploitation and malware development.
 
 # Fill in the protocol & hostname for your site.
 # e.g. 'https://username.github.io', note that it does not end with a '/'.
@@ -27,9 +28,9 @@ twitter:
 
 social:
   name: Jarno van den Brink
-  email: contact@jarnovdbrink.nl
+  email: contact[at]jarnovdbrink.nl
   links:
-    - https://twitter.com/v0nzyy
+    - https://twitter.com/
     - https://github.com/jarnovandenbrink
     - https://www.linkedin.com/in/jarno-b-a30ab41a2/
 
