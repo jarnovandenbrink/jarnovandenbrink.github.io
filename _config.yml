@@ -9,9 +9,8 @@ timezone:
 title: Jarno van den Brink # the main title
 
 tagline: >- # shown on the home page hero
-  Security researcher and red teamer. I work on Windows internals, exploitation
-  and malware development, mostly the parts of the API that were never meant to
-  be used the way I use them.
+  Security researcher and red team operator working on Windows internals, exploitation
+  and malware development. Using the Windows API for things it was not built for.
 
 description: >- # used by seo meta and the atom feed
   Red Teaming, Malware Development, and CTFs.

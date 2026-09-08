@@ -6,7 +6,6 @@ tags: [CRTP, AD, certificate]
 pin: false
 ---
 
-## Introduction
 On 10 March 2022, I officially became a Certified Red Team Professional. After passing the eCPPT I wanted to gain more knowledge of Active Directory exploitation so I decided to give PentesterAcademy a try. I am not completely new to Active Directory since I've worked as a System Administrator for some time, and had several classes in school about setting up AD environments. At the time the course was around 250$ included with 1 exam attempt. So I decided to buy it after some good recommendations. The reason I want to gain more knowledge of AD exploitation is that 90% of Enterprise networks are based on Active Directory. And sooner or later you will stumble across it.
 
 ## About the CRTP Course
@@ -42,6 +41,6 @@ Another good source of informatie is an official PentesterAcademy discord group 
 *Example of what the front page of my report looked like:*
 ![_install](/assets/img/CRTP-review/rapport.png)
 
-# So what’s next?
+## So what’s next?
 Soo... after passing the CRTP exam, I am currently trying to get my hands on the eCTPX from eLearnSecurity. The eCPTX also focuses on Active Directory exploitation using Kali and C2 frameworks. I think I'll be busy for quite some time with the eCPTX because of the ginormous amount of learning material and lab objectives. I'll be posting on interesting topics of this certification once in a while.
 
